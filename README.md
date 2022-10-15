@@ -6,7 +6,7 @@ You can create new tasks, delete or setting up reminders for them.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`
 
-## Fake API
+## Fake REST API
 
 Run `ng run server` for mock backend
 
