@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "text": "Buy groceries",
+      "day": "2022-10-16",
+      "reminder": false,
+      "id": 1
+    },
+    {
+      "text": "Call David",
+      "day": "2022-10-17",
+      "reminder": false,
+      "id": 2
+    }
+  ]
+}

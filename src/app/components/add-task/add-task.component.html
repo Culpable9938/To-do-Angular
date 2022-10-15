@@ -1,0 +1,17 @@
+<h3 style="color: red">{{errormsg}}</h3>
+<form *ngIf="showAddTask" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Task</label>
+        <input type="text" name="text" [(ngModel)]="text" id="text " placeholder="Add task name">
+    </div>
+    <div class="form-control">
+        <label for="day">Day & Time</label>
+        <input type="date" name="day" [(ngModel)]="day" id="day" placeholder="Add time">
+    </div>
+
+    <div class="form-control form-control-check">
+        <label for="reminder">Set reminder</label>
+        <input type="checkbox" [(ngModel)]="reminder" name="reminder" id="reminder" >
+    </div>
+    <input type="submit" value="Save" class="btn btn-block">
+</form>
